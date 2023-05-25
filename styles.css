@@ -1,6 +1,4 @@
-*{
-    box-sizing: border-box;
-}
+
 *{
     box-sizing: border-box;
 }
@@ -132,6 +130,9 @@ footer{
     color: #557c3e;
     font-size: 70%;
 }
+.hidden-nav {
+    display: none;
+}
 @media screen and (min-width : 600px){
     body{
         background-color: #61122f;
@@ -141,6 +142,9 @@ footer{
         display: grid;
         grid-template-rows: 20% 50% 40% 1fr;
         font-family: 'Oxygen', sans-serif;
+    }
+    #drop-down{
+        display: ;
     }
     header{
         background-color: #f6b319;
